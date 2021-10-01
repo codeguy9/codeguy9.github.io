@@ -1,0 +1,149 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family:Noto Serif
+}
+
+a {
+text-decoration:none;
+}
+
+header {
+    background-image: url("img/face.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100vh
+    
+}
+
+.navbar-brand {
+    font-size:40px;
+    font-weight: 600;
+    padding:15px 0 15px 60px;
+    color:rgb(206, 206, 206)
+
+}
+
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    color:rgb(207, 207, 207);
+    font-size:20px
+
+}   
+
+.hero-titles h1 {
+    color:white;
+
+}
+
+.hero-titles p {
+    color:white;
+    font-size:20px;
+}
+
+.divider {
+    max-width:5rem;
+    height:30px;
+    border-color:orange;
+    border-width:0.2rem
+}
+
+.hero-titles {
+    width:80%;
+    margin:auto;
+    padding-top:50px;
+}
+
+@media screen and (max-width:768px) {
+    .hero-titles h1 {
+        font-size:30px;
+    }
+}
+
+.btn-danger {
+    border-radius:20px;
+    padding:15px 18px
+}
+
+.getStartbtn {
+    background-color:white;
+    color:rgb(63, 63, 63);
+    padding:15px 19px;
+    border-radius:25px;
+    transition:all .4s;
+}
+
+.getStartbtn:hover {
+    background-color:rgb(219, 219, 219)
+}
+
+.section-titles {
+    padding:100px 0;
+    width:50%;
+    margin:auto;
+    color:white;
+}
+
+.section-titles p {
+    font-size:23px;
+}
+
+.section {
+    background-color: rgb(252, 145, 57);
+}
+
+.divtitles {
+    margin-top:60px;
+    
+}
+
+.elements-in-row {
+    width:80%;
+    margin:auto;
+    margin-bottom:70px
+}
+
+.far, .fas {
+    font-size:60px;
+    color:rgb(248, 90, 27)
+}
+
+.service h3 {
+    padding:30px 0;
+}
+
+.service p {
+    font-size:18px;
+    color:rgb(119, 119, 119)
+}
+
+.footer-titles p {
+    font-size:20px
+}
+
+.fa-phone, .fa-envelope {
+    color:rgb(88, 88, 88);
+    padding:30px 0;
+}
+
+.col-lg-6 p {
+    font-size:20px;
+    color:rgb(39, 39, 39);
+}
+
+a:hover {
+    color:rgb(255, 123, 0)
+}
+
+.contact a {
+    color:rgb(255, 136, 0)
+}
